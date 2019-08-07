@@ -1,0 +1,13 @@
+import {Machine} from 'xstate';
+
+export const authMachine = Machine<any, AuthSchema>({
+  id: 'login',
+  initial: 'loggedOut',
+  states: {
+    boot: {},
+    loggedOut: {},
+    loggedIn: {},
+    requestErr: {},
+    loading: {}
+  }
+});

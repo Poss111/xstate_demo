@@ -1,0 +1,25 @@
+.host {
+  background: white;
+  width: 250px;
+  height: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  /* align-items: center; */
+  margin: auto;
+  /* justify-content: center; */
+
+  &__login_box {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 15px;
+  }
+  &__username_box {
+    margin: auto;
+  }
+
+  &__password_box {
+    margin: auto;
+  }
+}

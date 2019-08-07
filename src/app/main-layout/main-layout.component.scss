@@ -1,0 +1,43 @@
+.host {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5em;
+  border-radius: 0.5em;
+  padding: 1em 6em;
+  min-width: 66.5em;
+
+  &__input-tile {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5em;
+    border-radius: 0.5em;
+    min-width: 65.5em;
+  }
+
+  &__table-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1em;
+  }
+
+  &__main-heading {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 4em;
+    font-family: 'Bitter', serif;
+  }
+
+  &__input-tile-field {
+    width: 100%;
+  }
+
+  &__table-container_table {
+    width: 100%;
+  }
+}
